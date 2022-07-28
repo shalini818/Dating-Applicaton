@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dating Application</title>
+
+</head>
+
+<body>
+
+    <style>
+        header {
+            text-align: center;
+            border-radius: 0.5rem;
+        }
+
+        input[type=text],
+        select {
+            width: 40%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid rgb(231, 216, 216);
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        */ input[type=submit] {
+
+            background-color: #66585e;
+            border: none;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 10%;
+            color: rgb(6, 8, 9);
+            text-align: center;
+
+        }
+
+        input[type=submit]:hover {
+            text-align: center;
+
+            background-color: #3c162c;
+        }
+
+        fieldset {
+            background-image: linear-gradient(rgb(222, 213, 213), rgb(219, 130, 173), rgb(176, 177, 199));
+            margin-left: 400px;
+            margin-right: 400px;
+            border-style: solid;
+            border-color: olivedrab;
+            border-radius: 2rem;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f4e3e3;
+            font-size: 16px;
+            resize: none;
+        }
+    </style>
+
+    <body>
+        <fieldset class="header">
+            <form>
+                <header style="background-color: rgb(191, 108, 138)">
+                    <h1>Dating Application</h1>
+                </header>
+                <div class="lable">
+                    <label for="name"><strong>Name</strong></label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="text" id="email" name="email" placeholder="Your Email.."><br>
+                    <label for="phone number"><strong>Phone Number:</strong></label>
+                    <input type="text" name="phone number" placeholder="" required>
+                    <label for="gender"><strong>Gender:</strong></label>
+                    <input type="radio" name="gender" value="male" required><label for="gender-male"
+                        class="options"><strong>Male</strong></label>
+                    <input type="radio" name="gender" value="female"><label for="gender-female"
+                        class="options"><strong>Female</strong></label><br><br>
+                    <label for="date"><strong>Select of outing Date:</strong></label> <input type="date"
+                        name="date"><br><br>
+
+                    <label for="country"><strong>Date of proposed outing (Check all that apply to
+                            you):</strong></label><br><br>
+
+                    <input type="checkbox" id="one1" name="one" value="option1">
+                    <label for="one">  I have tattoos and/or piercings </label><br>
+                    <input type="checkbox" id="two2" name="two" value="option2">
+                    <label for="two2"> I am more than 2 years older than my daughter</label><br>
+                    <input type="checkbox" id="three3" name="three" value="option3">
+                    <label for="three3"> I own a panel van or Ferrari </label><br>
+                    <input type="checkbox" id="four4" name="four" value="option4">
+                    <label for="four4"> I work full-time </label><br>
+                    <input type="checkbox" id="five5" name="five5" value="option5">
+                    <label for="five5> My parents are rich </label><br>
+                <input type=" checkbox" id="six6" name="six6" value="option6">
+                        <label for="six6"> Is the date at a private/public location </label><br>
+                        <!-- </fieldset> -->
+                        <br><br>
+                        <select id="education" name="Education">
+                            <option value="">Select your higher Education</option>
+                            <option value="">10th</option>
+                            <option value="">12th</option>
+                            <option value="">Graducation</option>
+                            <option value="">Post-Graducation</option>
+                            </option>
+                        </select>
+
+            </form>
+            <h2></h2>
+
+            <p><strong>Why do you want to date my daughter:</strong></p>
+
+
+            <textarea>50 words input...</textarea>
+            <br><br>
+
+            <label for="upload"><strong>Bank statement:</strong></label>
+            <input type="file" id="myfile" name="upload"><br><br>
+            </form>
+            <input type="submit" value="Submit">
+        </fieldset>
+        </div>
+    </body>
+
+</html>
